@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!--fontawesome/bootstrap-->
+    <script src="https://kit.fontawesome.com/a433598fd4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--fontawesome/bootstrap-->
+    <!--GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--GOOGLE FONTS -->
+    <title>Portfólio APG</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo do Portfólio">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li>
+                        <a href="index.html">Ínicio<span></span></a>
+                    </li>
+                    <li>
+                        <a href="#text1">Habilidades<span></span></a>
+                    </li>
+                    <li>
+                        <a href="#text2">Sobre<span></span></a>
+                    </li>
+                    <li>
+                        <a href="#text3">Projetos<span></span></a>
+                    </li>
+                </ul>
+            </nav><!--menu-desktop-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-circle"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Ínicio</a></li>
+                        <li><a href="#">Habilidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div><!-- menu-mobile -->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-topo">
+                        <img src="images/perfil-neon-circle.png" alt="Foto perfil em círculo">
+                        <div class="txt-animado">
+                            <span class="icon-pen"></span>
+                        </div><!-- txt-animado -->
+                    </div><!-- img-topo -->
+
+
+                    <div class="txt-topo">
+                        <h1 class="text-name">Olá, sou o<br /> <span id="name">Anderson Pontes</span></h1>
+                        <p class="text-dev">Desenvolvedor Front-End</p><br />
+                        <p id="clique-menu">Conheça meu Portfólio.<br />
+                            Clicando nos atalhos <span>(menu)</span>
+                            ou rolando para baixo!</p>
+
+                        <div class="buttons">
+                            <a href="#" class="icon inst">
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <span>Instagram</span>
+                            </a> <!-- icon -->
+                        </div><!-- buttons -->
+
+                        <div class="buttons">
+                            <a href="https://www.linkedin.com/in/andersonpontes88/" target="_blank" class="icon lin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a> <!-- icon -->
+                        </div><!-- buttons -->
+
+                        <div class="buttons">
+                            <a href="https://github.com/andersonpontes88" target="_blank" class="icon git">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </a> <!-- icon -->
+                        </div><!-- buttons -->
+
+                        <div class="buttons">
+                            <a href="https://wa.me/5585991504544" target="_blank" class="icon what">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a> <!-- icon -->
+                        </div><!-- buttons -->
+
+                    </div><!-- txt-topo -->
+                </div><!-- flex -->
+            </div> <!-- interface -->
+        </section><!--topo-do-site-->
+
+        <section class="about">
+            <div class="interface">
+                <h1>Sobre: <a name="text2"></a></h1>
+                <div class="flex">
+                    <div class="text-left">
+                        <h2>IDEIAS QUE SÃO TRANSFORMADAS EM <span>REALIDADE DIGITAL.</span> </h2>
+                        <p>Bem vindo e já agradecer pela visita, obrigado(a).
+                            Me chamo Anderson, tenho 35 anos, moro no estado do
+                            Ceará, cidade Caucaia. Tenho uma bela filha(Liz Daphne) e uma namorada(Sara Bessa).
+                            Estou estudando no DevClub, escola no ramo da Programação online,
+                            fazendo o curso FullStack PRO. Estou em transição de carreira.
+                            Minha última experiência foi na área de Odontologia como ASB.
+                            Estou em busca da primeira oportunidade no mercado da
+                            tecnologia. E estou me dedicando muito todos os dias
+                            para fazer isso acontecer.
+                            Gosto muito de Front-End mas posso também atuar no Back-End.
+                            Já desenvolvi alguns projetos durante o curso usando as tecnologias
+                            <span>(HTML, CSS, JAVASCRIPT, REACT, NODEJS, DOCKER, POSTGRES, MONGODB)</span>
+                            e todos trabalhos feitos com responsividade.
+                        </p>
+                    </div><!--text-left-->
+                    <div class="img-neon">
+                        <img src="images/perfil-neon.png" alt="Foto perfil neon">
+                    </div><!-- img-neon -->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--about-->
+
+        <section class="skills">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>HABILIDADES</span> <a name="text1"></a></h2>
+
+                <div class="box-flex">
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>HTML</p>
+                                <img width="45" height="45" src="https://img.icons8.com/nolan/64/html-5.png"
+                                    alt="html-5" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/html-cards.png" alt="Card do html">
+                            </div> <!-- trás -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>CSS</p>
+                                <img width="45" height="45" src="https://img.icons8.com/nolan/64/css3.png" alt="css3" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/css-cards.png" alt="Card do css">
+                            </div> <!-- trás -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>JAVASCRIPT</p>
+                                <img width="45" height="45" src="https://img.icons8.com/nolan/64/javascript-logo.png"
+                                    alt="javascript-logo" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/js-cards.png" alt="Card do css">
+                            </div> <!-- trás -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>NODE</p>
+                                <img width="45" height="45" src="https://img.icons8.com/nolan/64/node-js.png"
+                                    alt="node-js" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/node-cards.png" alt="Card do css">
+                            </div> <!-- trás -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>REACT</p>
+                                <img width="45" height="45" src="https://img.icons8.com/nolan/64/react-native.png"
+                                    alt="react-native" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/react-cards.png" alt="Card do css">
+                            </div> <!-- tras -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>DOCKER</p>
+                                <img width="50" height="50" src="https://img.icons8.com/nolan/64/docker.png"
+                                    alt="docker" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/docker-cards.png" alt="Card do css">
+                            </div> <!-- tras -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>POSTGRESQL</p>
+                                <img width="45" height="45" src="images/postgres-icon.png" alt="docker" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/postgres-cards.png" alt="Card do css">
+                            </div> <!-- tras -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                    <div class="container">
+                        <div class="flip">
+                            <div class="frente">
+                                <p>MONGODB</p>
+                                <img width="50" height="50" src="https://img.icons8.com/nolan/64/mongo-db.png"
+                                    alt="mongo-db" />
+                            </div> <!-- frente -->
+                            <div class="tras">
+                                <img src="images/mongo-cards.png" alt="Card do css">
+                            </div> <!-- tras -->
+                        </div><!-- flip -->
+                    </div><!--container-->
+
+                </div><!--box-flex-->
+            </div><!-- interface -->
+        </section><!-- skills -->
+
+        <section class="projects">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS</span> <a name="text3"></a></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/projeto01.png);">
+                        <div class="overlay">Burger Point</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto02.png);">
+                        <div class="overlay">Conversor Moedas</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto03.png);">
+                        <div class="overlay">Sorteador</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto-vari.png);">
+                        <div class="overlay">Alguns projetos</div>
+                    </div>
+                    
+                </div><!-- flex -->
+                <div class="link">
+                    <p>Para ver estes e outros <a href="https://github.com/andersonpontes88" target="_blank">clique aqui</a></p>
+                </div>
+            </div><!-- interface -->
+        </section><!-- projects -->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="logo">
+                    </div><!-- logo-footer -->
+                    <div class="flex-btn">
+                        <div class="buttons">
+                            <a href="https://www.linkedin.com/in/andersonpontes88/" target="_blank" class="icon lin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <span>Linkedin</span>
+                            </a> <!-- icon -->
+                        </div><!-- buttons-->
+                        <div class="buttons">
+                            <a href="https://github.com/andersonpontes88" target="_blank" class="icon git">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </a> <!-- icon -->
+                        </div><!-- buttons -->
+                    </div>
+
+                </div><!-- flex -->
+            </div><!-- line-footer -->
+
+            <div class="line-footer border-top">
+                <p><i class="bi bi-envelope-at-fill"></i><a href="mailto:andersonpontesg@gmail.com">
+                        andersonpontesg@gmail.com</a></p>
+            </div><!-- line-footer -->
+        </div><!-- interface -->
+    </footer>
+
+</body>
+<script src="script.js" defer></script>
+
+</html>
