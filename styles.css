@@ -604,6 +604,10 @@ footer .line-footer {
 
 /* STYLE RESPONSIVO */
 
+@media screen and (max-width: 1240px) {
+    
+}
+
 @media screen and (max-width: 1102px) {
     /* HEADER */
 
@@ -640,7 +644,7 @@ footer .line-footer {
     /* GERAL */
 
     header {
-        padding: 20px 5%;
+        padding: 20px 5%; 
     }
 
     section.topo-do-site {
@@ -686,9 +690,7 @@ footer .line-footer {
     }
   
     section.about .flex {
-       
         gap: 20px;
-        
     }
 
     .about .img-neon img {
@@ -712,7 +714,7 @@ footer .line-footer {
 
     .box-flex {
         width: 100%;
-        margin-left: 2%
+        margin-left: 2%;
     }
 
     .skills .container {
@@ -804,6 +806,7 @@ footer .line-footer {
         position: absolute;
     }
 }
+
 
 @media (width >= 500px) {
     .btn-abrir-menu, .menu-mobile {
